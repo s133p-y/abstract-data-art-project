@@ -21,11 +21,14 @@ Include a hyperlink to the source of your dataset used for this project. Additio
 
 Example:
 
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions
+Dataset: https://tuvalabs.com/datasets/roller_coasters_around_the_world/activities/
 
-- **Country** (String) - name of the country
-- **Population** (int) - number of people in the country
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons
+- **Country** (String) - country roller coaster is located in 
+- **Region** (String) - region roller coaster is located in 
+- **Speed** (int) - how fast the roller coast goes 
+- **Length** (int) - length of the roller coaster
+- **City** (String)- city roller coaster is located in
+- **Year** (Int)- year the roller coaster was open
 
 ## UML Diagram
 
@@ -47,4 +50,5 @@ Record a short video of your abstract art animation to display here on your READ
 
 ## Description
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+
+We chose a roller coaster data set for our project in order to inform the audience of the length, country, speed, region, city, and year of the roller coaster displayed in the theater. We used static variables and instance methods in order to display the results. We also included a for loop, a math.random statement, and an if-else statement. The use of a multi selection statement was applied in order to display different roller coaster images, which also resulted in the use of short-circut evaluation.
